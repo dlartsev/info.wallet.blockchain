@@ -24,7 +24,7 @@ class BTCORENOT(object):
 		return self.data
 	'''otpravka gooda'''
 	def sendMsg(self):
-		return requests.post('https://api.telegram.org/bot{0}/sendMessage?chat_id={1}&text={2}'.format('605518208:AAFSLlZgGOu2yo22WoBZ_TMHX5Gyms8ZXts', '558829992', self.data))
+		return requests.post('https://api.telegram.org/bot{0}/sendMessage?chat_id={1}&text={2}'.format('TELEGRAM:BOTTOKEN', 'USERID', self.data))
 
 btc = BTCORENOT(sys.argv[1])
 trans = btc.getTransactions()
