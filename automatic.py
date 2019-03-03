@@ -2,7 +2,7 @@ from pybitcoin import BitcoinPrivateKey
 from BeautifulSoup import BeautifulSoup
 import requests, re, json, sys, codecs
 
-class BTCORENOT(object):
+class BTCOREINFORMER(object):
 	'''sozdal objekt koshelka'''
 	def __init__(self, key):
 		super(BTCORENOT, self).__init__()
